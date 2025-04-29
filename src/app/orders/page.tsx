@@ -127,7 +127,7 @@ export default function OrdersPage() {
             {paginatedOrders.map((order) => (
               <TableRow key={order.id}>
                 <TableCell><Link href={`/orders/${order.id}`}>{order.id}</Link></TableCell>
-                <TableCell>{order.date}</TableCell>
+                <TableCell>{new Date(order?.date).toDateString()}</TableCell>
                 <TableCell>{order.cart.map(item => <p key={item}>{products[item] && products[item].name}</p>)}</TableCell>
                 <TableCell>{order.name}</TableCell>
                 <TableCell>${order.total.toFixed(2)}</TableCell>
