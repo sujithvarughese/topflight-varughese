@@ -6,6 +6,7 @@ import Link from "next/link";
 import {Button} from "@/components/ui/button";
 import {useAppDispatch} from "@/store/hooks";
 import {addItem} from "@/store/cartSlice";
+import {convertToUSD} from "@/utils/convertToUSD";
 
 interface ProductCardProps {
   id: number;
@@ -24,7 +25,7 @@ export function ProductCard(product: ProductCardProps) {
   const dispatch = useAppDispatch()
 
   return (
-    <Card className="w-[300px] overflow-hidden transition-all hover:shadow-lg pt-0">
+    <Card className="w-[250px] overflow-hidden transition-all hover:shadow-lg pt-0">
       <Link href={`/products/${id}`} className="relative h-[200px] w-full">
         <Image
           src={image}
@@ -53,7 +54,7 @@ export function ProductCard(product: ProductCardProps) {
         <CardDescription className="line-clamp-2">{description}</CardDescription>
       </CardHeader>
       <CardFooter className="flex items-center justify-between">
-        <span className="text-xl font-bold">${price.toFixed(2)}</span>
+        <span className="text-xl font-bold">{convertToUSD(price)}</span>
         <div className="flex gap-2">
           <Button
             className="rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600 cursor-pointer transition-colors duration-300"

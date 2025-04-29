@@ -4,6 +4,7 @@ import {useParams} from 'next/navigation';
 import Image from "next/image";
 import {ProductProps} from "@/app/products/page";
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
+import {convertToUSD} from "@/utils/convertToUSD";
 
 type OrderDetailsProps = {
   id: string;
@@ -13,6 +14,8 @@ type OrderDetailsProps = {
   status: string;
   date: string;
 };
+
+const TAX_RATE = 0.07;
 
 export default function OrderPage() {
   const {id} = useParams();
@@ -122,10 +125,6 @@ export default function OrderPage() {
                 <p className="font-semibold">Date</p>
                 <p>{new Date(order?.date).toDateString()}</p>
               </div>
-              <div className="flex justify-between items-center gap-4 mb-4">
-                <p className="font-semibold">Total Amount</p>
-                <p>${order?.total?.toFixed(2)}</p>
-              </div>
               <div>
                 <p className="font-semibold">Items</p>
                 {order?.cart.map(item =>
@@ -134,16 +133,16 @@ export default function OrderPage() {
                       <Image src={item?.image} alt="image" width={100} height={100} className="rounded-md" />
                       <p>{item?.name}</p>
                     </div>
-                    <p>{(item?.price)}</p>
+                    <p>{convertToUSD(item?.price)}</p>
                   </div>
                 )}
               </div>
 
-              <div className="flex justify-end border-t border-gray-200 pt-4 mt-4">
-                <p>Tax:&nbsp;</p><p className="font-bold">{(order?.total)}</p>
-              </div>
               <div className="flex justify-end pt-4 mt-4">
-                <p>Subtotal:&nbsp;</p><p className="font-bold">{(order?.total)}</p>
+                <p>Subtotal:&nbsp;</p><p className="font-bold">{convertToUSD(order?.total)}</p>
+              </div>
+              <div className="flex justify-end border-t border-gray-200 pt-4 mt-4">
+                <p>Tax:&nbsp;</p><p className="font-bold">{convertToUSD(order?.total * TAX_RATE)}</p>
               </div>
 
             </div>
@@ -152,7 +151,7 @@ export default function OrderPage() {
           <div className="p-4 border-t">
             <div className="flex justify-between items-center">
               <span className="text-lg font-semibold">Total</span>
-              <span className="text-lg font-semibold">{(order.total)}</span>
+              <span className="text-lg font-semibold">{convertToUSD(order.total, TAX_RATE)}</span>
             </div>
           </div>
         </div>

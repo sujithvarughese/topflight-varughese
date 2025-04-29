@@ -21,6 +21,7 @@ import {
 import Link from "next/link";
 import {useAppDispatch, useAppSelector} from "@/store/hooks";
 import {removeItem, toggleCartOpen} from "@/store/cartSlice";
+import {convertToUSD} from "@/utils/convertToUSD";
 
 const CartModal = () => {
 
@@ -63,7 +64,7 @@ const CartModal = () => {
 
                     {/* Right Section: Price and Remove Button */}
                     <div className="flex items-center space-x-4">
-                      <span className="font-bold text-gray-700">{item?.price}</span>
+                      <span className="font-bold text-gray-700">{convertToUSD(item?.price)}</span>
                       <Button
                         variant="ghost"
                         className="text-red-500 hover:text-red-700"
@@ -79,11 +80,11 @@ const CartModal = () => {
               )}
             </CardContent>
 
-            <CardFooter>
+            <CardFooter className="flex flex-col gap-6 p-4">
               {/* Total Price */}
               <div className="flex items-center w-full justify-end">
                 <p>Subtotal:&nbsp;</p>
-                <p className="text-lg font-bold">{items.reduce((acc, curr) => Number(acc) + Number(curr.price), 0)}</p>
+                <p className="text-lg font-bold">{convertToUSD(items.reduce((acc, curr) => Number(acc) + Number(curr.price), 0))}</p>
               </div>
 
               <Link href="/checkout" className="bg-green-500 hover:bg-green-600 text-white p-2 rounded-md text-center">

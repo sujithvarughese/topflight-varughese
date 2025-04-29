@@ -42,7 +42,10 @@ export default function OrdersPage() {
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    let result = [...orders];
+    let result = [...orders].map(order => ({
+      ...order,
+      status: order.status as Order['status'],
+    }));
 
     if (searchQuery) {
       result = result.filter(order =>
