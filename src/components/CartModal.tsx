@@ -86,7 +86,7 @@ const CartModal = () => {
                 <p className="text-lg font-bold">{convertToUSD(items.reduce((acc, curr) => Number(acc) + Number(curr.price), 0))}</p>
               </div>
 
-              <Link href="/checkout" className="bg-green-500 hover:bg-green-600 text-white p-2 rounded-md text-center">
+              <Link href="/checkout" className="bg-green-500 hover:bg-green-600 text-white p-2 rounded-md text-center" hidden={ items.length === 0}>
                 Proceed to Checkout
               </Link>
 
