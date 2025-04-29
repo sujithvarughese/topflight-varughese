@@ -22,6 +22,8 @@ import {
 import orders from "../../../data/orders.json"
 import products from "../../../data/products.json"
 import Link from "next/link";
+import {useSession} from "next-auth/react";
+import {useRouter} from "next/navigation";
 
 interface Order {
   id: string;
@@ -73,6 +75,15 @@ export default function OrdersPage() {
     (currentPage - 1) * ITEMS_PER_PAGE,
     currentPage * ITEMS_PER_PAGE
   );
+
+  const { status } = useSession()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (status !== "authenticated") {
+      router.push("/")
+    }
+  }, [status]);
 
   return (
     <div className="container mx-auto px-4 py-8">

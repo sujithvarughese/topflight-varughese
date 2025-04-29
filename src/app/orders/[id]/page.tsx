@@ -1,10 +1,11 @@
 'use client';
 import {useEffect, useState} from 'react';
-import {useParams} from 'next/navigation';
+import {useParams, useRouter} from 'next/navigation';
 import Image from "next/image";
 import {ProductProps} from "@/app/products/page";
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
 import {convertToUSD} from "@/utils/convertToUSD";
+import {useSession} from "next-auth/react";
 
 type OrderDetailsProps = {
   id: string;
@@ -44,6 +45,15 @@ export default function OrderPage() {
   const handleStatusChange = (id: string, newStatus: OrderDetailsProps["status"]) => {
     setOrder(prev => prev ? {...prev, status: newStatus} : null);
   }
+
+  const { status } = useSession()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (status !== "authenticated") {
+      router.push("/")
+    }
+  }, [status]);
 
   if (loading) {
     return (
