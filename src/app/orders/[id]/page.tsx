@@ -22,7 +22,6 @@ export default function OrderPage() {
   const [order, setOrder] = useState<OrderDetailsProps | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [updating, setUpdating] = useState(false);
 
   useEffect(() => {
     const fetchOrder = async () => {
@@ -95,7 +94,6 @@ export default function OrderPage() {
                 <Select
                   value={order?.status}
                   onValueChange={(value: OrderDetailsProps["status"]) => handleStatusChange(order?.id, value)}
-                  disabled={updating}
                 >
                   <SelectTrigger>
                     <SelectValue>{order?.status}</SelectValue>
@@ -107,7 +105,6 @@ export default function OrderPage() {
                   </SelectContent>
                 </Select>
               </div>
-              {updating && <span className="ml-2 animate-spin">⌛</span>}
             </div>
           </div>
 

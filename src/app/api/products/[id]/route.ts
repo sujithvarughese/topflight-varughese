@@ -17,6 +17,7 @@ export async function GET(
     const product = products.find(product => product.id === Number(id))
     return NextResponse.json(product);
   } catch (error) {
+    console.log(error)
     return NextResponse.json(
       {error: "Failed to fetch product"},
       {status: 500}

@@ -1,7 +1,7 @@
 'use client';
 
 import {useState, useEffect} from 'react';
-import {Search, SlidersHorizontal} from 'lucide-react';
+import {Search} from 'lucide-react';
 import products from "../../../data/products.json"
 import {ProductCard} from "@/components/ProductCard";
 

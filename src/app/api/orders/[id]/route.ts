@@ -19,9 +19,10 @@ export async function GET(
     const cartItems = order?.cart.map(item => products.find(product => product.id === item))
     return NextResponse.json({ ...order, cart: cartItems });
   } catch (error) {
+    console.log(error)
     return NextResponse.json(
       {error: "Failed to fetch product"},
-      {status: 500}
+      {status: 500},
     );
   }
 }

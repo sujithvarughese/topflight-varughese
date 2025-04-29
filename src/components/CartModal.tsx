@@ -27,7 +27,6 @@ const CartModal = () => {
 
   const items = useAppSelector(state => state.cart.items)
   const isCartOpen = useAppSelector(state => state.cart.isCartOpen)
-  const totalQuantity = useAppSelector(state => state.cart.totalQuantity)
   const dispatch = useAppDispatch()
 
   return (
