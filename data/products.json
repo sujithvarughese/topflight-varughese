@@ -1,0 +1,2102 @@
+[
+  {
+    "id": 0,
+    "name": "Chamomile",
+    "description": "Strengthens nails and hair",
+    "price": 18.83,
+    "rating": 5,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement1/300/200.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Vitamin C",
+    "description": "Improves sleep quality",
+    "price": 37.58,
+    "rating": 4.3,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement2/300/200.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mangosteen",
+    "description": "Strengthens nails and hair",
+    "price": 39.69,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement3/300/200.jpg"
+  },
+  {
+    "id": 3,
+    "name": "L-Tryptophan",
+    "description": "Supports immune system",
+    "price": 46.15,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement4/300/200.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Holy Basil",
+    "description": "Helps reduce stress",
+    "price": 20.02,
+    "rating": 4.9,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement5/300/200.jpg"
+  },
+  {
+    "id": 5,
+    "name": "ZMA",
+    "description": "Supports digestion",
+    "price": 36.71,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement6/300/200.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Niacin",
+    "description": "Strengthens nails and hair",
+    "price": 7.57,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement7/300/200.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shilajit",
+    "description": "Enhances skin glow",
+    "price": 38.87,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement8/300/200.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Schisandra",
+    "description": "Supports digestion",
+    "price": 42.12,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement9/300/200.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Melatonin",
+    "description": "Improves sleep quality",
+    "price": 43.44,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement10/300/200.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Chlorella",
+    "description": "Supports immune system",
+    "price": 17.67,
+    "rating": 3.9,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement11/300/200.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Iodine",
+    "description": "Improves sleep quality",
+    "price": 43.57,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement12/300/200.jpg"
+  },
+  {
+    "id": 12,
+    "name": "CoQ10",
+    "description": "Boosts brain function",
+    "price": 41.49,
+    "rating": 4.3,
+    "isBestSeller": false,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement13/300/200.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Whey Protein",
+    "description": "Supports immune system",
+    "price": 35.31,
+    "rating": 4.4,
+    "isBestSeller": false,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement14/300/200.jpg"
+  },
+  {
+    "id": 14,
+    "name": "SAM-e",
+    "description": "Supports digestion",
+    "price": 34.12,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement15/300/200.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Manuka Honey",
+    "description": "Promotes bone health",
+    "price": 38.58,
+    "rating": 4.2,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement16/300/200.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Calcium",
+    "description": "Supports immune system",
+    "price": 49.06,
+    "rating": 4.5,
+    "isBestSeller": false,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement17/300/200.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Multivitamin",
+    "description": "Supports immune system",
+    "price": 49.55,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement18/300/200.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Glucosamine",
+    "description": "Boosts brain function",
+    "price": 9.19,
+    "rating": 4.8,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement19/300/200.jpg"
+  },
+  {
+    "id": 19,
+    "name": "L-Theanine",
+    "description": "Strengthens nails and hair",
+    "price": 22.39,
+    "rating": 3.6,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement20/300/200.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Iron",
+    "description": "Boosts energy levels",
+    "price": 38.61,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement21/300/200.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Vitamin B12",
+    "description": "Promotes bone health",
+    "price": 30.93,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement22/300/200.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Curcumin",
+    "description": "Helps reduce stress",
+    "price": 26.42,
+    "rating": 4.5,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement23/300/200.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Peppermint Oil",
+    "description": "Boosts energy levels",
+    "price": 29.1,
+    "rating": 4.3,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement24/300/200.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Elderberry",
+    "description": "Helps reduce stress",
+    "price": 45.87,
+    "rating": 3.9,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement25/300/200.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Inositol",
+    "description": "Supports joint health",
+    "price": 38.6,
+    "rating": 3.7,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement26/300/200.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Milk Thistle",
+    "description": "Improves sleep quality",
+    "price": 48.97,
+    "rating": 3.7,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement27/300/200.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Propolis",
+    "description": "Enhances skin glow",
+    "price": 15.31,
+    "rating": 3.5,
+    "isBestSeller": true,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement28/300/200.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Folic Acid",
+    "description": "Promotes bone health",
+    "price": 27.21,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement29/300/200.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Green Tea Extract",
+    "description": "Supports joint health",
+    "price": 36.37,
+    "rating": 3.8,
+    "isBestSeller": false,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement30/300/200.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Creatine",
+    "description": "Enhances skin glow",
+    "price": 22.48,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement31/300/200.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Garlic Extract",
+    "description": "Boosts brain function",
+    "price": 29.53,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement32/300/200.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Cinnamon Bark",
+    "description": "Boosts energy levels",
+    "price": 29.88,
+    "rating": 3.9,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement33/300/200.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Turmeric",
+    "description": "Strengthens nails and hair",
+    "price": 29.14,
+    "rating": 3.7,
+    "isBestSeller": false,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement34/300/200.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Lavender Oil",
+    "description": "Strengthens nails and hair",
+    "price": 11.31,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement35/300/200.jpg"
+  },
+  {
+    "id": 35,
+    "name": "NAC",
+    "description": "Supports digestion",
+    "price": 30.73,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement36/300/200.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Vitamin K2",
+    "description": "Promotes bone health",
+    "price": 48.69,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement37/300/200.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Melatonin Gummies",
+    "description": "Boosts energy levels",
+    "price": 25.72,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement38/300/200.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Elderflower",
+    "description": "Boosts brain function",
+    "price": 33.07,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement39/300/200.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Hemp Protein",
+    "description": "Supports joint health",
+    "price": 35.43,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement40/300/200.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Artichoke Extract",
+    "description": "Enhances skin glow",
+    "price": 8.6,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement41/300/200.jpg"
+  },
+  {
+    "id": 41,
+    "name": "CBD Oil",
+    "description": "Boosts energy levels",
+    "price": 28.03,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement42/300/200.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Pantothenic Acid",
+    "description": "Strengthens nails and hair",
+    "price": 43.88,
+    "rating": 3.9,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement43/300/200.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Manganese",
+    "description": "Strengthens nails and hair",
+    "price": 18.78,
+    "rating": 5,
+    "isBestSeller": false,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement44/300/200.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Zeaxanthin",
+    "description": "Promotes bone health",
+    "price": 31.7,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement45/300/200.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Vitamin B2",
+    "description": "Promotes bone health",
+    "price": 43.4,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement46/300/200.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Selenium",
+    "description": "Supports joint health",
+    "price": 38.85,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement47/300/200.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Beetroot Powder",
+    "description": "Supports joint health",
+    "price": 43.6,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement48/300/200.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Slippery Elm",
+    "description": "Boosts energy levels",
+    "price": 44.75,
+    "rating": 5,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement49/300/200.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Glutamine",
+    "description": "Promotes bone health",
+    "price": 22.08,
+    "rating": 3.7,
+    "isBestSeller": false,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement50/300/200.jpg"
+  },
+  {
+    "id": 50,
+    "name": "L-Carnitine",
+    "description": "Boosts brain function",
+    "price": 37.59,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement51/300/200.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Rhodiola Rosea",
+    "description": "Promotes bone health",
+    "price": 39.05,
+    "rating": 3.6,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement52/300/200.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Eucalyptus Oil",
+    "description": "Enhances skin glow",
+    "price": 34.17,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement53/300/200.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Lycopene",
+    "description": "Helps reduce stress",
+    "price": 37.67,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement54/300/200.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Boswellia",
+    "description": "Strengthens nails and hair",
+    "price": 21.59,
+    "rating": 3.7,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement55/300/200.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Acai Berry",
+    "description": "Promotes bone health",
+    "price": 37,
+    "rating": 3.8,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement56/300/200.jpg"
+  },
+  {
+    "id": 56,
+    "name": "MSM",
+    "description": "Supports joint health",
+    "price": 11.39,
+    "rating": 4.3,
+    "isBestSeller": true,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement57/300/200.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Grape Seed Extract",
+    "description": "Promotes bone health",
+    "price": 13.97,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement58/300/200.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Copper",
+    "description": "Promotes bone health",
+    "price": 33.03,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement59/300/200.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Boron",
+    "description": "Supports digestion",
+    "price": 29.67,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement60/300/200.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Resveratrol",
+    "description": "Supports joint health",
+    "price": 44.08,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement61/300/200.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Fish Oil",
+    "description": "Strengthens nails and hair",
+    "price": 11.59,
+    "rating": 3.9,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement62/300/200.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Vitamin B6",
+    "description": "Boosts brain function",
+    "price": 7.85,
+    "rating": 4.3,
+    "isBestSeller": true,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement63/300/200.jpg"
+  },
+  {
+    "id": 63,
+    "name": "BCAA",
+    "description": "Improves sleep quality",
+    "price": 15.57,
+    "rating": 4.8,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement64/300/200.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Dandelion Root",
+    "description": "Supports joint health",
+    "price": 46.6,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement65/300/200.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Vitamin B7",
+    "description": "Improves sleep quality",
+    "price": 12.18,
+    "rating": 4.3,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement66/300/200.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Astaxanthin",
+    "description": "Enhances skin glow",
+    "price": 35.5,
+    "rating": 3.6,
+    "isBestSeller": true,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement67/300/200.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Valerian Root",
+    "description": "Strengthens nails and hair",
+    "price": 29.54,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement68/300/200.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Triphala",
+    "description": "Supports immune system",
+    "price": 15.8,
+    "rating": 3.9,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement69/300/200.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Moringa",
+    "description": "Strengthens nails and hair",
+    "price": 21.32,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement70/300/200.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Tea Tree Oil",
+    "description": "Supports joint health",
+    "price": 24,
+    "rating": 4.3,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement71/300/200.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Burdock Root",
+    "description": "Improves sleep quality",
+    "price": 32.75,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement72/300/200.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Camu Camu",
+    "description": "Boosts brain function",
+    "price": 33.4,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement73/300/200.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Clove Oil",
+    "description": "Supports immune system",
+    "price": 8.98,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement74/300/200.jpg"
+  },
+  {
+    "id": 74,
+    "name": "HMB",
+    "description": "Boosts energy levels",
+    "price": 44.35,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement75/300/200.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Electrolytes",
+    "description": "Supports digestion",
+    "price": 11.03,
+    "rating": 4.8,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement76/300/200.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Licorice Root",
+    "description": "Boosts brain function",
+    "price": 32.7,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement77/300/200.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Choline",
+    "description": "Improves sleep quality",
+    "price": 10.96,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement78/300/200.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Vitamin B1",
+    "description": "Promotes bone health",
+    "price": 32.63,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement79/300/200.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Zinc",
+    "description": "Boosts energy levels",
+    "price": 19.89,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement80/300/200.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Vitamin E",
+    "description": "Helps reduce stress",
+    "price": 26.48,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement81/300/200.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Biotin",
+    "description": "Boosts brain function",
+    "price": 45.14,
+    "rating": 3.9,
+    "isBestSeller": true,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement82/300/200.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Vitamin A",
+    "description": "Strengthens nails and hair",
+    "price": 34.86,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement83/300/200.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Passionflower",
+    "description": "Improves sleep quality",
+    "price": 34.49,
+    "rating": 5,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement84/300/200.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Goji Berry",
+    "description": "Supports immune system",
+    "price": 18.89,
+    "rating": 3.7,
+    "isBestSeller": true,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement85/300/200.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Ginseng",
+    "description": "Boosts energy levels",
+    "price": 18.92,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement86/300/200.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Vitamin D",
+    "description": "Strengthens nails and hair",
+    "price": 14.31,
+    "rating": 3.6,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement87/300/200.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Aloe Vera",
+    "description": "Promotes bone health",
+    "price": 45.23,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement88/300/200.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Saw Palmetto",
+    "description": "Supports digestion",
+    "price": 33.57,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement89/300/200.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Bee Pollen",
+    "description": "Supports joint health",
+    "price": 45.25,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement90/300/200.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Pine Bark Extract",
+    "description": "Improves sleep quality",
+    "price": 42.43,
+    "rating": 3.6,
+    "isBestSeller": true,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement91/300/200.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Hyaluronic Acid",
+    "description": "Supports immune system",
+    "price": 20.09,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement92/300/200.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Vitamin K1",
+    "description": "Supports joint health",
+    "price": 22.26,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement93/300/200.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Magnesium",
+    "description": "Helps reduce stress",
+    "price": 22.14,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement94/300/200.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Lutein",
+    "description": "Supports digestion",
+    "price": 6.46,
+    "rating": 4.2,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement95/300/200.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Pre-Workout",
+    "description": "Promotes bone health",
+    "price": 39.41,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement96/300/200.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Post-Workout",
+    "description": "Supports immune system",
+    "price": 19.6,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement97/300/200.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Royal Jelly",
+    "description": "Boosts energy levels",
+    "price": 49.04,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement98/300/200.jpg"
+  },
+  {
+    "id": 98,
+    "name": "5-HTP",
+    "description": "Supports digestion",
+    "price": 27.12,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement99/300/200.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Casein Protein",
+    "description": "Supports digestion",
+    "price": 16.84,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement100/300/200.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Beta-Carotene",
+    "description": "Enhances skin glow",
+    "price": 25.42,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement101/300/200.jpg"
+  },
+  {
+    "id": 101,
+    "name": "GABA",
+    "description": "Supports joint health",
+    "price": 44.13,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement102/300/200.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Quercetin",
+    "description": "Helps reduce stress",
+    "price": 49.79,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement103/300/200.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Maca Root",
+    "description": "Boosts energy levels",
+    "price": 27.3,
+    "rating": 3.9,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement104/300/200.jpg"
+  },
+  {
+    "id": 104,
+    "name": "L-Arginine",
+    "description": "Boosts brain function",
+    "price": 29.79,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement105/300/200.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Amla",
+    "description": "Boosts brain function",
+    "price": 20.46,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement106/300/200.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Ashwagandha",
+    "description": "Supports immune system",
+    "price": 12.03,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement107/300/200.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Chromium",
+    "description": "Promotes bone health",
+    "price": 30.98,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement108/300/200.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Alpha Lipoic Acid",
+    "description": "Enhances skin glow",
+    "price": 43.03,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement109/300/200.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Fenugreek",
+    "description": "Supports immune system",
+    "price": 24.49,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement110/300/200.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Collagen",
+    "description": "Helps reduce stress",
+    "price": 40.99,
+    "rating": 4.8,
+    "isBestSeller": false,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement111/300/200.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Baobab",
+    "description": "Supports joint health",
+    "price": 47.37,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement112/300/200.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Marshmallow Root",
+    "description": "Supports joint health",
+    "price": 23.04,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement113/300/200.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Probiotic",
+    "description": "Boosts energy levels",
+    "price": 23.4,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement114/300/200.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Spirulina",
+    "description": "Supports joint health",
+    "price": 23.89,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement115/300/200.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Supplement 116",
+    "description": "Supports immune system",
+    "price": 37.8,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement116/300/200.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Supplement 117",
+    "description": "Enhances skin glow",
+    "price": 8.87,
+    "rating": 4.9,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement117/300/200.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Supplement 118",
+    "description": "Boosts energy levels",
+    "price": 45.98,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement118/300/200.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Supplement 119",
+    "description": "Supports immune system",
+    "price": 40.83,
+    "rating": 3.9,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement119/300/200.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Supplement 120",
+    "description": "Boosts energy levels",
+    "price": 48.14,
+    "rating": 3.5,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement120/300/200.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Supplement 121",
+    "description": "Supports digestion",
+    "price": 23.37,
+    "rating": 4.4,
+    "isBestSeller": false,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement121/300/200.jpg"
+  },
+  {
+    "id": 121,
+    "name": "Supplement 122",
+    "description": "Enhances skin glow",
+    "price": 9.44,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement122/300/200.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Supplement 123",
+    "description": "Supports digestion",
+    "price": 21.38,
+    "rating": 3.8,
+    "isBestSeller": false,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement123/300/200.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Supplement 124",
+    "description": "Enhances skin glow",
+    "price": 10.95,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement124/300/200.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Supplement 125",
+    "description": "Helps reduce stress",
+    "price": 43.83,
+    "rating": 3.8,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement125/300/200.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Supplement 126",
+    "description": "Promotes bone health",
+    "price": 36.89,
+    "rating": 4.6,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement126/300/200.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Supplement 127",
+    "description": "Improves sleep quality",
+    "price": 17.09,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement127/300/200.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Supplement 128",
+    "description": "Promotes bone health",
+    "price": 38.01,
+    "rating": 4.4,
+    "isBestSeller": false,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement128/300/200.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Supplement 129",
+    "description": "Boosts energy levels",
+    "price": 26.1,
+    "rating": 4.2,
+    "isBestSeller": true,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement129/300/200.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Supplement 130",
+    "description": "Enhances skin glow",
+    "price": 39.17,
+    "rating": 4.5,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement130/300/200.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Supplement 131",
+    "description": "Improves sleep quality",
+    "price": 24.27,
+    "rating": 4.8,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement131/300/200.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Supplement 132",
+    "description": "Strengthens nails and hair",
+    "price": 34.08,
+    "rating": 5,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement132/300/200.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Supplement 133",
+    "description": "Strengthens nails and hair",
+    "price": 26.72,
+    "rating": 5,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement133/300/200.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Supplement 134",
+    "description": "Strengthens nails and hair",
+    "price": 36.36,
+    "rating": 4.9,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement134/300/200.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Supplement 135",
+    "description": "Improves sleep quality",
+    "price": 18.85,
+    "rating": 3.6,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement135/300/200.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Supplement 136",
+    "description": "Enhances skin glow",
+    "price": 29.78,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement136/300/200.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Supplement 137",
+    "description": "Improves sleep quality",
+    "price": 22.93,
+    "rating": 4.5,
+    "isBestSeller": false,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement137/300/200.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Supplement 138",
+    "description": "Supports immune system",
+    "price": 39.56,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement138/300/200.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Supplement 139",
+    "description": "Supports immune system",
+    "price": 33.01,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement139/300/200.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Supplement 140",
+    "description": "Boosts energy levels",
+    "price": 30.13,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement140/300/200.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Supplement 141",
+    "description": "Strengthens nails and hair",
+    "price": 21.49,
+    "rating": 5,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement141/300/200.jpg"
+  },
+  {
+    "id": 141,
+    "name": "Supplement 142",
+    "description": "Boosts energy levels",
+    "price": 10.08,
+    "rating": 4.8,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement142/300/200.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Supplement 143",
+    "description": "Supports immune system",
+    "price": 6.53,
+    "rating": 4.2,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement143/300/200.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Supplement 144",
+    "description": "Enhances skin glow",
+    "price": 29.67,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement144/300/200.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Supplement 145",
+    "description": "Promotes bone health",
+    "price": 18.72,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement145/300/200.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Supplement 146",
+    "description": "Supports immune system",
+    "price": 45.88,
+    "rating": 4.2,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement146/300/200.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Supplement 147",
+    "description": "Supports joint health",
+    "price": 24.31,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement147/300/200.jpg"
+  },
+  {
+    "id": 147,
+    "name": "Supplement 148",
+    "description": "Boosts brain function",
+    "price": 43.34,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement148/300/200.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Supplement 149",
+    "description": "Boosts brain function",
+    "price": 17.89,
+    "rating": 3.7,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement149/300/200.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Supplement 150",
+    "description": "Supports immune system",
+    "price": 18.77,
+    "rating": 4.8,
+    "isBestSeller": true,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement150/300/200.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Supplement 151",
+    "description": "Promotes bone health",
+    "price": 17.77,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement151/300/200.jpg"
+  },
+  {
+    "id": 151,
+    "name": "Supplement 152",
+    "description": "Helps reduce stress",
+    "price": 30.06,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement152/300/200.jpg"
+  },
+  {
+    "id": 152,
+    "name": "Supplement 153",
+    "description": "Supports digestion",
+    "price": 30.36,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement153/300/200.jpg"
+  },
+  {
+    "id": 153,
+    "name": "Supplement 154",
+    "description": "Boosts energy levels",
+    "price": 49.97,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement154/300/200.jpg"
+  },
+  {
+    "id": 154,
+    "name": "Supplement 155",
+    "description": "Strengthens nails and hair",
+    "price": 35.11,
+    "rating": 4.5,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement155/300/200.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Supplement 156",
+    "description": "Boosts energy levels",
+    "price": 24.51,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement156/300/200.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Supplement 157",
+    "description": "Enhances skin glow",
+    "price": 9.03,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement157/300/200.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Supplement 158",
+    "description": "Enhances skin glow",
+    "price": 33.25,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement158/300/200.jpg"
+  },
+  {
+    "id": 158,
+    "name": "Supplement 159",
+    "description": "Strengthens nails and hair",
+    "price": 26.73,
+    "rating": 4.8,
+    "isBestSeller": false,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement159/300/200.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Supplement 160",
+    "description": "Helps reduce stress",
+    "price": 11.89,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement160/300/200.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Supplement 161",
+    "description": "Supports digestion",
+    "price": 18.22,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement161/300/200.jpg"
+  },
+  {
+    "id": 161,
+    "name": "Supplement 162",
+    "description": "Boosts energy levels",
+    "price": 20.88,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement162/300/200.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Supplement 163",
+    "description": "Strengthens nails and hair",
+    "price": 9.41,
+    "rating": 3.8,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement163/300/200.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Supplement 164",
+    "description": "Supports joint health",
+    "price": 38.82,
+    "rating": 4.8,
+    "isBestSeller": true,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement164/300/200.jpg"
+  },
+  {
+    "id": 164,
+    "name": "Supplement 165",
+    "description": "Supports joint health",
+    "price": 32.73,
+    "rating": 4.3,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement165/300/200.jpg"
+  },
+  {
+    "id": 165,
+    "name": "Supplement 166",
+    "description": "Boosts brain function",
+    "price": 32.54,
+    "rating": 5,
+    "isBestSeller": false,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement166/300/200.jpg"
+  },
+  {
+    "id": 166,
+    "name": "Supplement 167",
+    "description": "Supports joint health",
+    "price": 26.69,
+    "rating": 4.1,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement167/300/200.jpg"
+  },
+  {
+    "id": 167,
+    "name": "Supplement 168",
+    "description": "Promotes bone health",
+    "price": 32.45,
+    "rating": 3.5,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement168/300/200.jpg"
+  },
+  {
+    "id": 168,
+    "name": "Supplement 169",
+    "description": "Supports joint health",
+    "price": 25.79,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement169/300/200.jpg"
+  },
+  {
+    "id": 169,
+    "name": "Supplement 170",
+    "description": "Strengthens nails and hair",
+    "price": 20.42,
+    "rating": 4.4,
+    "isBestSeller": false,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement170/300/200.jpg"
+  },
+  {
+    "id": 170,
+    "name": "Supplement 171",
+    "description": "Enhances skin glow",
+    "price": 46.17,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement171/300/200.jpg"
+  },
+  {
+    "id": 171,
+    "name": "Supplement 172",
+    "description": "Supports immune system",
+    "price": 34.45,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement172/300/200.jpg"
+  },
+  {
+    "id": 172,
+    "name": "Supplement 173",
+    "description": "Strengthens nails and hair",
+    "price": 18.22,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement173/300/200.jpg"
+  },
+  {
+    "id": 173,
+    "name": "Supplement 174",
+    "description": "Supports digestion",
+    "price": 19.85,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement174/300/200.jpg"
+  },
+  {
+    "id": 174,
+    "name": "Supplement 175",
+    "description": "Boosts brain function",
+    "price": 37.91,
+    "rating": 4.2,
+    "isBestSeller": false,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement175/300/200.jpg"
+  },
+  {
+    "id": 175,
+    "name": "Supplement 176",
+    "description": "Supports immune system",
+    "price": 41.21,
+    "rating": 3.9,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement176/300/200.jpg"
+  },
+  {
+    "id": 176,
+    "name": "Supplement 177",
+    "description": "Supports digestion",
+    "price": 10.67,
+    "rating": 3.6,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement177/300/200.jpg"
+  },
+  {
+    "id": 177,
+    "name": "Supplement 178",
+    "description": "Enhances skin glow",
+    "price": 18.38,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement178/300/200.jpg"
+  },
+  {
+    "id": 178,
+    "name": "Supplement 179",
+    "description": "Promotes bone health",
+    "price": 16.62,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement179/300/200.jpg"
+  },
+  {
+    "id": 179,
+    "name": "Supplement 180",
+    "description": "Supports joint health",
+    "price": 18.71,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Immune Support",
+    "image": "https://picsum.photos/seed/supplement180/300/200.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Supplement 181",
+    "description": "Strengthens nails and hair",
+    "price": 25.59,
+    "rating": 4.8,
+    "isBestSeller": false,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement181/300/200.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Supplement 182",
+    "description": "Enhances skin glow",
+    "price": 49.35,
+    "rating": 4.8,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement182/300/200.jpg"
+  },
+  {
+    "id": 182,
+    "name": "Supplement 183",
+    "description": "Strengthens nails and hair",
+    "price": 16.55,
+    "rating": 4.3,
+    "isBestSeller": false,
+    "category": "Oils & Extracts",
+    "image": "https://picsum.photos/seed/supplement183/300/200.jpg"
+  },
+  {
+    "id": 183,
+    "name": "Supplement 184",
+    "description": "Strengthens nails and hair",
+    "price": 42.94,
+    "rating": 4.7,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement184/300/200.jpg"
+  },
+  {
+    "id": 184,
+    "name": "Supplement 185",
+    "description": "Promotes bone health",
+    "price": 39.81,
+    "rating": 4.2,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement185/300/200.jpg"
+  },
+  {
+    "id": 185,
+    "name": "Supplement 186",
+    "description": "Supports joint health",
+    "price": 12.37,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement186/300/200.jpg"
+  },
+  {
+    "id": 186,
+    "name": "Supplement 187",
+    "description": "Supports digestion",
+    "price": 35.32,
+    "rating": 3.9,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement187/300/200.jpg"
+  },
+  {
+    "id": 187,
+    "name": "Supplement 188",
+    "description": "Supports immune system",
+    "price": 12.03,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement188/300/200.jpg"
+  },
+  {
+    "id": 188,
+    "name": "Supplement 189",
+    "description": "Boosts energy levels",
+    "price": 36.84,
+    "rating": 4.1,
+    "isBestSeller": true,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement189/300/200.jpg"
+  },
+  {
+    "id": 189,
+    "name": "Supplement 190",
+    "description": "Promotes bone health",
+    "price": 6.38,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "Minerals",
+    "image": "https://picsum.photos/seed/supplement190/300/200.jpg"
+  },
+  {
+    "id": 190,
+    "name": "Supplement 191",
+    "description": "Strengthens nails and hair",
+    "price": 27.77,
+    "rating": 4.9,
+    "isBestSeller": false,
+    "category": "Protein",
+    "image": "https://picsum.photos/seed/supplement191/300/200.jpg"
+  },
+  {
+    "id": 191,
+    "name": "Supplement 192",
+    "description": "Promotes bone health",
+    "price": 41.04,
+    "rating": 4.4,
+    "isBestSeller": true,
+    "category": "Amino Acids",
+    "image": "https://picsum.photos/seed/supplement192/300/200.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Supplement 193",
+    "description": "Improves sleep quality",
+    "price": 48.93,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "General Wellness",
+    "image": "https://picsum.photos/seed/supplement193/300/200.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Supplement 194",
+    "description": "Supports immune system",
+    "price": 20.47,
+    "rating": 4.4,
+    "isBestSeller": false,
+    "category": "Vitamins",
+    "image": "https://picsum.photos/seed/supplement194/300/200.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Supplement 195",
+    "description": "Improves sleep quality",
+    "price": 23.17,
+    "rating": 5,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement195/300/200.jpg"
+  },
+  {
+    "id": 195,
+    "name": "Supplement 196",
+    "description": "Enhances skin glow",
+    "price": 12.52,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Energy Support",
+    "image": "https://picsum.photos/seed/supplement196/300/200.jpg"
+  },
+  {
+    "id": 196,
+    "name": "Supplement 197",
+    "description": "Supports joint health",
+    "price": 40.53,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement197/300/200.jpg"
+  },
+  {
+    "id": 197,
+    "name": "Supplement 198",
+    "description": "Supports digestion",
+    "price": 22.22,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement198/300/200.jpg"
+  },
+  {
+    "id": 198,
+    "name": "Supplement 199",
+    "description": "Supports joint health",
+    "price": 21.05,
+    "rating": 5,
+    "isBestSeller": true,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement199/300/200.jpg"
+  },
+  {
+    "id": 199,
+    "name": "Supplement 200",
+    "description": "Boosts brain function",
+    "price": 26.2,
+    "rating": 4.3,
+    "isBestSeller": true,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement200/300/200.jpg"
+  },
+  {
+    "id": 200,
+    "name": "Supplement 201",
+    "description": "Strengthens nails and hair",
+    "price": 48.18,
+    "rating": 3.8,
+    "isBestSeller": false,
+    "category": "Heart Health",
+    "image": "https://picsum.photos/seed/supplement201/300/200.jpg"
+  },
+  {
+    "id": 201,
+    "name": "Supplement 202",
+    "description": "Strengthens nails and hair",
+    "price": 21.18,
+    "rating": 3.7,
+    "isBestSeller": true,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement202/300/200.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Supplement 203",
+    "description": "Strengthens nails and hair",
+    "price": 44.38,
+    "rating": 3.7,
+    "isBestSeller": false,
+    "category": "Herbal",
+    "image": "https://picsum.photos/seed/supplement203/300/200.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Supplement 204",
+    "description": "Helps reduce stress",
+    "price": 26.17,
+    "rating": 4,
+    "isBestSeller": true,
+    "category": "Brain Health",
+    "image": "https://picsum.photos/seed/supplement204/300/200.jpg"
+  },
+  {
+    "id": 204,
+    "name": "Supplement 205",
+    "description": "Enhances skin glow",
+    "price": 19.62,
+    "rating": 4.7,
+    "isBestSeller": false,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/supplement205/300/200.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Supplement 206",
+    "description": "Enhances skin glow",
+    "price": 29.14,
+    "rating": 3.8,
+    "isBestSeller": true,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement206/300/200.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Supplement 207",
+    "description": "Boosts brain function",
+    "price": 12.65,
+    "rating": 4.6,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement207/300/200.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Supplement 208",
+    "description": "Promotes bone health",
+    "price": 41.15,
+    "rating": 4.4,
+    "isBestSeller": false,
+    "category": "Digestive Health",
+    "image": "https://picsum.photos/seed/supplement208/300/200.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Supplement 209",
+    "description": "Promotes bone health",
+    "price": 15.96,
+    "rating": 3.9,
+    "isBestSeller": false,
+    "category": "Beauty",
+    "image": "https://picsum.photos/seed/supplement209/300/200.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Supplement 210",
+    "description": "Supports joint health",
+    "price": 21.14,
+    "rating": 4,
+    "isBestSeller": false,
+    "category": "Sleep Support",
+    "image": "https://picsum.photos/seed/supplement210/300/200.jpg"
+  }
+]
