@@ -7,6 +7,7 @@ import {Badge} from '@/components/ui/badge';
 import {Button} from '@/components/ui/button';
 import {useAppDispatch} from "@/store/hooks";
 import {addItem} from "@/store/cartSlice";
+import {useParams} from "next/navigation";
 
 interface Product {
   id: number;
@@ -19,7 +20,8 @@ interface Product {
   image: string;
 }
 
-export default function ProductPage({params}: { params: { id: string } }) {
+export default function ProductPage() {
+  const {id} = useParams()
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -28,7 +30,7 @@ export default function ProductPage({params}: { params: { id: string } }) {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`/api/products/${params.id}`);
+        const response = await fetch(`/api/products/${id}`);
         if (!response.ok) throw new Error('Product not found');
         const data = await response.json();
         setProduct(data);
@@ -40,7 +42,7 @@ export default function ProductPage({params}: { params: { id: string } }) {
     };
 
     fetchProduct();
-  }, [params.id]);
+  }, [id]);
 
   if (loading) return <div className="flex justify-center items-center min-h-screen">Loading...</div>;
   if (error) return <div className="flex justify-center items-center min-h-screen text-red-500">{error}</div>;
