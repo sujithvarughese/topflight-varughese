@@ -6,8 +6,9 @@ import { Label } from "@radix-ui/react-label";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import {useAppSelector} from "@/store/hooks";
+import {convertToUSD} from "@/utils/convertToUSD";
 
-
+const TAX_RATE = 0.07; // 7% tax
 const CheckoutPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -65,15 +66,15 @@ const CheckoutPage: React.FC = () => {
         <div className="mt-6 pt-4 border-t">
           <div className="flex justify-between">
             <p>Subtotal</p>
-            <p className="font-bold">{subtotal}</p>
+            <p>{convertToUSD(subtotal)}</p>
           </div>
           <div className="flex justify-between">
             <p>Tax (7%)</p>
-            <p className="font-bold">{(subtotal)}</p>
+            <p>{convertToUSD(subtotal * TAX_RATE)}</p>
           </div>
           <div className="flex justify-between mt-2">
             <p className="text-lg font-semibold">Total</p>
-            <p className="text-lg font-bold">{(subtotal)}</p>
+            <p className="text-lg font-bold">{convertToUSD(subtotal, TAX_RATE)}</p>
           </div>
         </div>
       </Card>

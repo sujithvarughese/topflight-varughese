@@ -45,6 +45,14 @@ const CartModal = () => {
               <CardDescription>
                 Review the items in your cart before proceeding to checkout.
               </CardDescription>
+              <Button
+                variant="ghost"
+                hidden={items.length === 0}
+                onClick={() => dispatch(removeItem(-1))}
+                className=" text-red-500 hover:text-red-700 w-24 justify-self-end"
+              >
+                Clear Cart
+              </Button>
             </CardHeader>
 
             <CardContent>

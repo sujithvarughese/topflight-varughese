@@ -5,6 +5,8 @@ import Navbar from "@/navigation/Navbar";
 import Footer from "@/navigation/Footer";
 import StoreProvider from "@/store/StoreProvider";
 import Provider from "@/lib/Provider";
+import {Toaster} from "@/components/ui/sonner";
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +36,8 @@ export default function RootLayout({
             <Navbar />
               {children}
             <Footer />
+            <Toaster />
+            <Analytics />
           </StoreProvider>
         </Provider>
       </body>
